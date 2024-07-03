@@ -1,18 +1,20 @@
 import React from "react";
-import Search from "./Components/Search";
+import Weather from "./Components/Weather/Weather";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather with Sense Power Digital</h1>
-        <Search />
+        <Weather />
+        <footer>
+          This project was coded by Nataliia (Sense Power Digital).
+          <a href="https://github.com/Petrychuk/senseweather" target="_blank" rel="noreferrer">Open-soursed on GitHub.</a>
+        </footer>
       </div>
     </div>
   );
 }
-export default App;
