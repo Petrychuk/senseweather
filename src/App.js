@@ -11,7 +11,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Sydney" />
         <footer>
-          This project was coded by Nataliia (Sense Power Digital).
+          This project was coded by Nataliia Petrychuk (Sense Power Digital).
           <a href="https://github.com/Petrychuk/senseweather" target="_blank" rel="noreferrer">Open-soursed on GitHub.</a>
         </footer>
       </div>
